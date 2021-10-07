@@ -27,3 +27,5 @@ C:\WORK_PROJECTS\NET5_Microservices\PlatformService\obj\Debug\net5.0\PlatformSer
 C:\WORK_PROJECTS\NET5_Microservices\PlatformService\obj\Debug\net5.0\ref\PlatformService.dll
 C:\WORK_PROJECTS\NET5_Microservices\PlatformService\obj\Debug\net5.0\PlatformService.pdb
 C:\WORK_PROJECTS\NET5_Microservices\PlatformService\obj\Debug\net5.0\PlatformService.genruntimeconfig.cache
+C:\WORK_PROJECTS\NET5_Microservices\PlatformService\bin\Debug\net5.0\AutoMapper.dll
+C:\WORK_PROJECTS\NET5_Microservices\PlatformService\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
