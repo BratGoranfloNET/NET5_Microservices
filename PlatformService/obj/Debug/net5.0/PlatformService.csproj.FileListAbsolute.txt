@@ -22,7 +22,6 @@ C:\WORK_PROJECTS\NET5_Microservices\PlatformService\obj\Debug\net5.0\staticwebas
 C:\WORK_PROJECTS\NET5_Microservices\PlatformService\obj\Debug\net5.0\staticwebassets\PlatformService.StaticWebAssets.xml
 C:\WORK_PROJECTS\NET5_Microservices\PlatformService\obj\Debug\net5.0\scopedcss\bundle\PlatformService.styles.css
 C:\WORK_PROJECTS\NET5_Microservices\PlatformService\obj\Debug\net5.0\PlatformService.RazorTargetAssemblyInfo.cache
-C:\WORK_PROJECTS\NET5_Microservices\PlatformService\obj\Debug\net5.0\PlatformService.csproj.CopyComplete
 C:\WORK_PROJECTS\NET5_Microservices\PlatformService\obj\Debug\net5.0\PlatformService.dll
 C:\WORK_PROJECTS\NET5_Microservices\PlatformService\obj\Debug\net5.0\ref\PlatformService.dll
 C:\WORK_PROJECTS\NET5_Microservices\PlatformService\obj\Debug\net5.0\PlatformService.pdb
