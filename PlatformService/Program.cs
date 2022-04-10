@@ -22,5 +22,6 @@ namespace PlatformService
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
     }
 }
