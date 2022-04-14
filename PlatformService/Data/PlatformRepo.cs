@@ -16,7 +16,7 @@ namespace PlatformService.Data
         }
         public bool SaveChanges()
         {
-            throw new NotImplementedException();
+            return (_context.SaveChanges() >= 0);
         }
 
         public IEnumerable<Platform> GetAllPlatforms()
