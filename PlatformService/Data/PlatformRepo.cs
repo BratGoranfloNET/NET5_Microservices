@@ -21,7 +21,7 @@ namespace PlatformService.Data
 
         public IEnumerable<Platform> GetAllPlatforms()
         {
-            throw new NotImplementedException();
+            return _context.Platforms.ToList();
         }
 
         public Platform GetPlatformById(int id)
