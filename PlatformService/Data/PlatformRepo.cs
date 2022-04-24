@@ -26,7 +26,7 @@ namespace PlatformService.Data
 
         public Platform GetPlatformById(int id)
         {
-            throw new NotImplementedException();
+            return _context.Platforms.FirstOrDefault();
         }
 
         public void CreatePlatform(Platform plat)
