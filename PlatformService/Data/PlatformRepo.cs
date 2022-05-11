@@ -31,7 +31,13 @@ namespace PlatformService.Data
 
         public void CreatePlatform(Platform plat)
         {
-            throw new NotImplementedException();
+            if (plat == null)
+            {
+                throw new ArgumentNullException(nameof(plat));
+            }
+
+            _context.Platforms.Add(plat);
+
         }
     }
 }
