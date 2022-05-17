@@ -25,13 +25,12 @@ namespace PlatformService.Data
                 Console.WriteLine("--> Seeding Data");
 
                 context.Platforms.AddRange(
-                    new Platform()
-                    {
-                        Name = "Dot NET",
-                        Publisher = "Soloncy",
-                        Cost = "Free"
-                    }
-                    );
+                    new Platform{Name = "Dot NET",Publisher = "Soloncy",Cost = "Free"},
+                    new Platform{Name = "Dot NET2", Publisher = "Soloncy2", Cost = "Free" },
+                    new Platform{Name = "Dot NET3", Publisher = "Soloncy3", Cost = "Free" }
+                );
+
+                context.SaveChanges();
 
             }
             else
