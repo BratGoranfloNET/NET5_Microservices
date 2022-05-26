@@ -54,13 +54,13 @@ namespace PlatformService.Controllers
         }
 
         //[HttpPost]
-        //public async Task<ActionResult<PlatformReadDto>> CreatePlatform(PlatformCreateDto platformCreateDto)
-        //{
-        //    var platformModel = _mapper.Map<Platform>(platformCreateDto);
-        //    _repository.CreatePlatform(platformModel);
-        //    _repository.SaveChanges();
+        public async Task<ActionResult<PlatformReadDto>> CreatePlatform(PlatformCreateDto platformCreateDto)
+        {
+            var platformModel = _mapper.Map<Platform>(platformCreateDto);
+            _repository.CreatePlatform(platformModel);
+            _repository.SaveChanges();
 
-        //    var platformReadDto = _mapper.Map<PlatformReadDto>(platformModel);
+            var platformReadDto = _mapper.Map<PlatformReadDto>(platformModel);
 
         //    // Send Sync Message
         //    try
@@ -84,7 +84,8 @@ namespace PlatformService.Controllers
         //        Console.WriteLine($"--> Could not send asynchronously: {ex.Message}");
         //    }
 
-        //    return CreatedAtRoute(nameof(GetPlatformById), new { Id = platformReadDto.Id }, platformReadDto);
-        //}
+              return CreatedAtRoute(nameof(GetPlatformById), new { Id = platformReadDto.Id }, platformReadDto);
+
+        }
     }
 }
